@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Merienda';
+	font-weight: 500;
+    background-color: #fec7d7;
+	height: 100%;
+}
+
+header{
+	max-width: 1500px;
+    background-color: #0e172c;
+	background-color: #3A2D40;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+	align-items: center;
+	-webkit-box-shadow: 1px 4px 15px 0 rgb(0 0 0 / 75%);
+    -moz-box-shadow: 1px 4px 15px 0 rgba(0,0,0,0.75);
+    box-shadow: 1px 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.bar {
+	max-width: 1500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bar ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.bar ul li{
+	padding: 0 10px;
+}
+
+.bar ul li a{
+	text-decoration:none;
+	color: #F2E5A2;
+}
+
+.bar ul li a:hover{
+	text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    margin-right: 32px;
+    text-decoration: none;
+    color: #F2E5A2;
+}
+
+.titles {
+	text-align: center;
+	color: #3A2D40;
+}
+
+.cards-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 280px);
+	gap: 26px;
+	justify-content: center;
+	width: 100%;
+}
+
+.product-card {
+	width: 240px;
+}
+
+.product-card img {
+	width: 280px;
+	height: 240px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.product-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 4px;
+}
+
+.product-info div h3 {
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+.product-info div h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+} 
+
+.product-info input {
+	background-color: #F2E5A2;
+	font-family: 'Merienda';
+	text-align: center;
+	border: none;
+	border-radius: 8px;
+	width: 44px;
+    height: 20px;
+	margin-top: 28px;
+	margin-right: 40px;
+}
+

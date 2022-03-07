@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delight</title>
+    <link rel="stylesheet" href="./order.css">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="bar">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./menu.html">Sabores</a></li>
+                <li><a href="./order.html">Ordena Aqui</a></li>
+            </ul>
+        </nav>
+
+        <a href="./index.html" class="logo">
+            <span class="iconify" data-icon="emojione-v1:shortcake" data-width="50" data-height="45"></span>
+            <h1>Sweet Delight</h1>
+        </a>
+    </header>
+    <br>
+    <section class="make_order">
+        <div class="form-container">
+            <h1 class="title">Datos para hacer tu pedido</h1>
+
+            <form action="/" class="form">
+                <div>
+                    <label for="name" class="label">Nombre Completo</label> <br>
+                    <input type="text" id="name" placeholder="Ej.:Javier Alvarez Ruiz " class="input input-name" required><br>
+
+                    <label for="email" class="label">Email</label><br>
+                    <input type="email" id="email"  pattern=".+\.com" placeholder="usuario@example.com" class="input input-email" required><br>
+
+                    <label for="tel" class="label">Numero de Telefono</label><br>
+                    <input type="tel" id="tel" maxlength="10" placeholder="Ej.: 5554816" class="input input-tel" required><br>
+
+                    <label for="sabor" class="label">Selecciona un sabor para tu pastel</label><br>
+                    <input type="radio" name="Sabor" id="sabor" value="Vainilla"> Vainilla
+                    <input type="radio" name="Sabor" id="sabor" value="3 Leches"> 3 Leches
+                    <input type="radio" name="Sabor" id="sabor" value="Chocolate"> Chocolate
+                    <input type="radio" name="Sabor" id="sabor" value="Red Valvet"> Red Valvet
+                    <br> <br>
+                    <label for="relleno" class="label">Selecciona rellenos para tu pastel</label><br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Crema Batida"> Crema Batida<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Crema de Vainilla"> Crema de Vainilla <br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Crema de Chocolate"> Crema de Chocolate<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Crema de Cafe"> Crema de Cafe<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Cajeta"> Cajeta <br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Queso Crema"> Queso Crema<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Fresa"> Fresa<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Durazno"> Durazno<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Mix de Frutas"> Mix de Frutas<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Nueces"> Nueces<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Almendras"> Almendras<br>
+                    <input type="checkbox" name="Relleno" id="relleno" value="Fresas Con Crema"> Fresas Con Crema
+                    <br>
+                    <br>
+                    <label for="decoracion" class="label">Selecciona la decoracion y cubierta para tu pastel</label> <br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Mermelada de Fresa"> Mermelada de Fresa<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Mermelada de Zarzamora"> Mermelada de Zarzamora <br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Mermelada de Durazno"> Mermelada de Durazno<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Crema Batida"> Crema Batida<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Crema Batida de Chocolate"> Crema Batida de Chocolate <br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Cerezas"> Cerezas<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Durazno"> Durazno<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Fresa"> Fresa<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Mix de Frutas"> Mix de Frutas<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Frutos Rojos"> Frutos Rojos<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Granillo de Chocolate"> Granillo de Chocolate<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Granillo Mix de Chocolate"> Granillo Mix de Chocolate<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Granillo de Colores"> Granillo de Colores<br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="Virutas de Chocolate"> Virutas de Chocolate <br>
+                    <input type="checkbox" name="Decoracion" id="decoracion" value="M&M'S"> M&M'S<br>
+                    <br>
+                </div>
+                <input type="reset" class="primary-button ">
+                <input type="button" onclick="alert('Pedido Enviado');" value="Enviar Pedido" class="primary-button login-button">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
